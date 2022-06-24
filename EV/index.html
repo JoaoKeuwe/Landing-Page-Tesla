@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="image/tesla-logo.png">
+  </head>
+  <body>
+    <div class="header" id="header">
+      <nav>
+        <img src="image/logo.png" alt="logo" class="logo" />
+        <ul class="models">
+          <li><a href="#" id="models">Model S</a></li>
+          <li><a href="#" id="model3">Model 3</a></li>
+          <li><a href="#" id="modelx">Model X</a></li>
+          <li><a href="#" id="modely">Model Y</a></li>
+        </ul>
+        <a href="#" class="btn">Reserve Now</a>
+      </nav>
+      <div class="info">
+        <div>
+          <h2 id="potency">1.99 s</h2>
+          <p>60mph</p>
+        </div>
+
+        <div>
+          <h2 id="top-speed">200mph</h2>
+          <p>Top Speed</p>
+        </div>
+
+        <div>
+          <h2 id="range">396 mi</h2>
+          <p>Max Range</p>
+        </div>
+
+        <div class="line"></div>
+      <div>
+        <h2 id="model">Model S</h2>
+      </div>
+    </div>
+    </div>
+
+    <script>
+        const header = document.getElementById("header");
+        const ms = document.getElementById("models");
+        const m3 = document.getElementById("model3");
+        const mx = document.getElementById("modelx");
+        const my = document.getElementById("modely");
+        const model = document.getElementById("model");
+        const potency = document.getElementById("potency")
+        const topSpeed = document.getElementById("top-speed")
+        const range = document.getElementById("range")
+
+        ms.onclick = function(){
+            header.style.backgroundImage = "url(image/image-1.png)"
+            model.innerHTML = "Model S"
+            potency.innerHTML = "1.99 s"
+            topSpeed.innerHTML = "200mph"
+            range.innerHTML = "396 mi"
+        }
+
+        m3.onclick = function(){
+            header.style.backgroundImage = "url(image/image-2.png)"
+            model.innerHTML = "Model 3"
+            potency.innerHTML = "3.1 s"
+            topSpeed.innerHTML = "162mph"
+            range.innerHTML = "358 mi"
+        }
+
+        mx.onclick = function(){
+            header.style.backgroundImage = "url(image/image-3.png)"
+            model.innerHTML = "Model X"
+            potency.innerHTML = "2.5"
+            topSpeed.innerHTML = "180mph"
+            range.innerHTML = "333 mi"
+        }
+
+        my.onclick = function(){
+            header.style.backgroundImage = "url(image/image-4.png)"
+            model.innerHTML = "Model Y"
+            potency.innerHTML = "3.5 s"
+            topSpeed.innerHTML = "165mph"
+            range.innerHTML = "330 mi"
+        }
+    </script>
+  </body>
+</html>
