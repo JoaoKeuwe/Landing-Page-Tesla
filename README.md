@@ -20,3 +20,7 @@ Tecnologias utilizadas para a realização do projeto:<br/>
 
 https://user-images.githubusercontent.com/91097315/192170959-65154a7b-b997-4bb9-a7c5-15ff38e211dc.mp4
 
+##
+
+Link do deploy do Projeto:
+https://landing-page-tesla.netlify.app/
