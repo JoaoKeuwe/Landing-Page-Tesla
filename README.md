@@ -10,8 +10,8 @@ Desenvolvi esta Landing Page inspirado no site da Tesla, assim consolidando meus
 ##
 
 Tecnologias utilizadas para a realização do projeto:<br/>
--HTML<br/>
--CSS<br/>
+- HTML<br/>
+- CSS<br/>
 
 <div/>
 
