@@ -97,3 +97,77 @@ li{
 li:hover {
     font-size:29px
 }
+
+@media (max-width: 1200px) {
+    .models {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    nav .btn {
+        padding: 5px 15px;
+        margin-right: 4%;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    li[disabled]:hover {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 861px) {
+    .models {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    nav .btn {
+        display: none;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 700px) {
+    .models {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    nav .btn {
+        display: none;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 550px) {
+    .models {
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+
+    h2 {
+        font-size: 1em;
+    }
+}
